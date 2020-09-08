@@ -189,3 +189,157 @@ a {
 .phone {
     width: 450px;
 }
+
+.trustbar > p {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: bold;
+    color: #242f51;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.trusted {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    align-items: center;
+}
+
+.trdiv {
+    margin: 0px 40px;
+}
+
+.featurebar {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.featurebar > img {
+    margin-right: 20px;
+}
+
+.feature {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1 {
+    background-color: #ffecef;
+}
+
+.c2 {
+    background-color: #f4f4ff;
+}
+
+.c3 {
+    background-color: #e4ffee;
+}
+
+.rside h2,
+.jpot h2 {
+    color: #242f51;
+    font-family: Gilroy;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+.rside > p,
+.cards p,
+.jpot p {
+    font-family: Gilroy;
+    font-size: 18px;
+    color: grey;
+    width: 500px;
+}
+
+.infoft h3,
+.cards h3 {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 0px 40px;
+}
+
+.infoft p {
+    font-family: Gilroy;
+    font-size: 18px;
+    color: grey;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.h31 {
+    color: #f55767;
+}
+
+.h32 {
+    color: #2563ff;
+}
+
+.h33 {
+    color: #40975f;
+}
+
+.jpot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.jpot h2 {
+    width: 400px;
+    padding-right: 60px;
+    margin: 0px;
+    border-right: 1px solid grey;
+}
+
+.jpot p {
+    width: 450px;
+    padding: 0px;
+    margin-left: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.cards p {
+    width: 250px;
+}
+
+.card {
+    margin: 0px 60px;
+}
+
+.cards h3 {
+    margin: 0px;
+}
+
+.jackpots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .circle {
+    margin-bottom: 40px;
+}
