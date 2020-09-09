@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: white;
+    overflow-x: hidden;
 }
 
 .homepage {
@@ -249,7 +250,12 @@ a {
 }
 
 .rside h2,
-.jpot h2 {
+.jpot h2,
+.dbuilt h2,
+.whyus h2,
+.lside h2,
+.charges h2,
+.oside h2 {
     color: #242f51;
     font-family: Gilroy;
     font-size: 40px;
@@ -260,7 +266,14 @@ a {
 
 .rside > p,
 .cards p,
-.jpot p {
+.jpot p,
+.dbuilt p,
+.carditem p,
+.whyus > p,
+.lside > p,
+.thecard p,
+.charges > p,
+.oside p {
     font-family: Gilroy;
     font-size: 18px;
     color: grey;
@@ -268,7 +281,10 @@ a {
 }
 
 .infoft h3,
-.cards h3 {
+.cards h3,
+.carditem h3,
+.thecard h3,
+.oside h3 {
     font-family: Gilroy;
     font-size: 20px;
     font-weight: bold;
@@ -342,4 +358,411 @@ a {
 
 .card .circle {
     margin-bottom: 40px;
+}
+
+.dbuilt h2 {
+    width: 400px;
+}
+
+.dbuilt p {
+    width: 450px;
+}
+
+.dbuilt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 100px;
+}
+
+.rrside {
+    margin-left: 100px;
+}
+
+.rrside button {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.cc1 {
+    background-color: #ffecef;
+}
+
+.cc2 {
+    background-color: #eaf9ff;
+}
+
+.cc3 {
+    background-color: #fff6d3;
+}
+
+.cc4 {
+    background-color: #e4ffee;
+}
+
+.cc5 {
+    background-color: #f4f4ff;
+}
+
+.cc6 {
+    background-color: #fdeee4;
+}
+
+.whyus,
+.carditem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardslist {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,max(350px));
+    margin-top: 40px;
+}
+
+.carditem p {
+    width: 300px;
+    text-align: center;
+}
+
+.carditem h3 {
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.whyus h2 {
+    width: 500px;
+    text-align: center;
+}
+
+.whyus > p {
+    width: 650px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.carditem .circle {
+    margin-top: 50px;
+}
+
+.ultimate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    padding-left: 200px;
+}
+
+.cardgrid {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,max(350px));
+}
+
+.thecard h3 {
+    margin-left: 0px;
+}
+
+.thecard p {
+    width: 300px;
+}
+
+.lside h2 {
+    width: 400px;
+}
+
+.lside > p {
+    width: 450px;
+}
+
+.cardgrid .circle {
+    margin-top: 40px;
+}
+
+.thecard h3 {
+    margin-top: 30px;
+}
+
+.lside button {
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.lside {
+    margin-right: -90px;
+}
+
+.charges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    border-bottom: solid #ebebeb 1px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.charges h2 {
+    width: 600px;
+    text-align: center;
+}
+
+.charges > p {
+    width: 650px;
+    text-align: center;
+}
+
+.monthly {
+    width: 135px;
+    height: 45px;
+    border-radius: 45px;
+    border: none;
+    background-color: #2500f9;
+    font-family: Gilroy;
+    font-weight: bolder;
+    color: white;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.annually {
+    width: 135px;
+    height: 45px;
+    border: none;
+    border-radius: 45px;
+    color: grey;
+    font-family: Gilroy;
+    font-weight: bolder;
+    font-size: 17px;
+    margin: 0px;
+    background-color: white;
+}
+
+.buttonz {
+    padding: 3px;
+    border: 2px solid #ebebeb;
+    border-radius: 51px;
+    margin-top: 60px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.upperpart {
+    width: 300px;
+    height: 240px;
+    background: linear-gradient(180deg, white, #f4f7f9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerpart {
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.option2 {
+    margin-left: 40px;
+}
+
+ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+li {
+    font-family: Gilroy;
+    font-size: 16px;
+    color: grey;
+    font-weight: normal;
+    margin: 30px 0px;
+}
+
+.upperpart .price {
+    font-family: Gilroy;
+    font-size: 18px;
+    color: grey;
+    margin-top: 50px;
+}
+
+.upperpart .name {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.upperpart .descr {
+    font-family: Gilroy;
+    font-size: 16px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.price span {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #242f51;;
+}
+
+.lowerpart button {
+    background-color: #2500f9;
+    width: 210px;
+    height: 55px;
+    color: white;
+    border: none;
+    border-radius: 55px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.option1 {
+    box-shadow: 0px 60px 40px 0px #f4f6f7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.lowerpart a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.lowerpart a p {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: normal;
+    color: #2500f9;
+}
+
+.option2 {
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.satisfaction {
+    display: flex;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+.oside h3 {
+    margin: 0px;
+}
+
+.oside h2 {
+    width: 500px;
+}
+
+#dess {
+    width: 600px;
+    margin-bottom: 6e0px;
+}
+
+.oside i {
+    font-size: 20px;
+    margin: 0px 2px;
+    color: #ffcc00;
+}
+
+.stars {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.propic {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    background-image: url(./img/adult-beard-boy-220453.png);
+    background-position: 0 -5px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.satispic {
+    margin-top: 60px;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.authordata h3 {
+    margin-top: 20px;
+}
+
+.authordata {
+    margin-left: 30px;
+}
+
+.authordata p {
+    margin-top: 8px;
+}
+
+.arrbuttons {
+    margin-left: -140px;
+}
+
+.arrbuttons,
+.crc1,
+.crc2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crc1 {
+    width: 40px;
+    height: 40px;
+    border: #ebebeb solid 2px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.crc2 {
+    width: 40px;
+    height: 40px;
+    border: #ebebeb solid 2px;
+    border-radius: 40px;
+    background-color: #ebebeb;
+}
+
+.divider {
+    width: 2px;
+    height: 30px;
+    background-color: #ebebeb;
+    margin: 0px 10px;
+}
+
+#arr1 {
+    color: #ebebeb;
+}
+
+#arr2 {
+    color: #2500f9;
+}
+
+.oside {
+    margin-left: -40px;
 }
