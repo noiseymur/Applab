@@ -255,7 +255,9 @@ a {
 .whyus h2,
 .lside h2,
 .charges h2,
-.oside h2 {
+.oside h2,
+.frequent h2,
+.download h2 {
     color: #242f51;
     font-family: Gilroy;
     font-size: 40px;
@@ -273,7 +275,9 @@ a {
 .lside > p,
 .thecard p,
 .charges > p,
-.oside p {
+.oside p,
+.frequent p,
+.download p {
     font-family: Gilroy;
     font-size: 18px;
     color: grey;
@@ -284,7 +288,9 @@ a {
 .cards h3,
 .carditem h3,
 .thecard h3,
-.oside h3 {
+.oside h3,
+.que h3,
+.firstq h3 {
     font-family: Gilroy;
     font-size: 20px;
     font-weight: bold;
@@ -765,4 +771,147 @@ li {
 
 .oside {
     margin-left: -40px;
+}
+
+.frequent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.frequent h2 {
+    width: 700px;
+    text-align: center;
+}
+
+.frequent > p {
+    width: 580px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.firstq {
+    width: 900px;
+    height: 200px;
+    background-color: #ebebeb;
+    margin-bottom: 5px;
+}
+
+.firstq h3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.firstq p {
+    margin-left: 40px;
+    width: 750px;
+    font-size: 16px;
+}
+
+.que {
+    width: 900px;
+    height: 60px;
+    background-color: #ebebeb;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.que i {
+    font-size: 22px;
+    margin-right: 40px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    margin-right: -140px;
+    align-items: center;
+}
+
+.fpart {
+    margin-right: -100px;
+    margin-bottom: 100px;
+}
+
+.fpart h2 {
+    width: 500px;
+}
+
+.fpart p {
+    width: 650px;
+}
+
+.storelogos {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.gplay {
+    margin-right: 30px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #09142e;
+    margin-top: -81px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.logof {
+    font-family: Gilroy;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.logof span {
+    color: #fcae61;
+}
+
+.menuf {
+    display: flex;
+    justify-content: center;
+}
+
+.menuf p {
+    font-family: Gilroy;
+    font-size-adjust: 18px;
+    color: white;
+    margin: 0px 20px;
+}
+
+.followus {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.followus i {
+    font-size: 30px;
+    color: #273043;
+    margin: 0px 10px;
+}
+
+#foi1 {
+    color: white;
+}
+
+.copyright {
+    font-family: Gilroy;
+    font-size: 14px;
+    color: #3d465a;
+    font-weight: bold;
 }
